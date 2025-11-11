@@ -24,4 +24,4 @@ jobs:
             docker-compose down
             docker-compose up -d --build
           debug: true
-          timeout: 60
+          timeout: 60s
